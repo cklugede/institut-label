@@ -1,0 +1,341 @@
+.container {
+  width: 100%;
+}
+
+.nav-menu {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.navbar {
+  height: 64px;
+  background-color: #fff;
+  font-family: futura-pt, sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 700;
+}
+
+.release-wrap {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100vw;
+  height: 100vh;
+}
+
+.div-block-2 {
+  height: 100%;
+}
+
+.release_2 {
+  position: absolute;
+  left: 39%;
+  top: 52%;
+  width: 200px;
+  height: 200px;
+  background-image: url('../images/020818_Cover.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.release {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  width: 184px;
+  height: 184px;
+}
+
+.release.release-1 {
+  left: 15%;
+  top: 15%;
+  background-image: url('../images/zweite.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.release.release-2 {
+  left: 33%;
+  top: 50%;
+  background-image: url('../images/020818_Cover.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.release.release-3 {
+  left: 8%;
+  top: 66%;
+  background-image: url('../images/totaly_cover.png');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.release.release-4 {
+  left: 63%;
+  top: 13%;
+  background-image: url('../images/hhh_cover.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.release.release-5 {
+  left: 80%;
+  top: 44%;
+  background-image: url('../images/P01_Cover.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.release.release-6 {
+  left: 55%;
+  top: 71%;
+  background-image: url('../images/ttc_cover.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.release_3 {
+  position: absolute;
+  left: 7%;
+  top: 63%;
+  width: 200px;
+  height: 200px;
+  background-image: url('../images/zweite.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.release_4 {
+  position: absolute;
+  left: 68%;
+  top: 67%;
+  width: 200px;
+  height: 200px;
+  background-image: url('../images/ttc_cover.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.release_5 {
+  position: absolute;
+  left: 74%;
+  top: 16%;
+  width: 200px;
+  height: 200px;
+  background-image: url('../images/totaly_cover.png');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.release-link {
+  width: 100%;
+  height: 100%;
+}
+
+.body-home {
+  background-image: url('../images/institut_logo.svg');
+  background-position: 50% 50%;
+  background-size: 20%;
+  background-repeat: no-repeat;
+}
+
+.nav-link {
+  color: #000;
+}
+
+.nav-link.w--current {
+  color: #000;
+  text-decoration: underline;
+}
+
+.nav-link.nav-active {
+  text-decoration: underline;
+}
+
+.kuenstler-wrap {
+  position: fixed;
+  top: 0px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.kuenstler {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  height: 32px;
+  color: #000;
+}
+
+.kuenstler-text {
+  width: 200vw;
+  font-family: futura-pt, sans-serif;
+  color: #000;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.link {
+  color: #000;
+  text-decoration: underline;
+}
+
+.nav-link-2 {
+  color: #000;
+}
+
+.link-2 {
+  color: #000;
+  text-decoration: underline;
+}
+
+.link-3 {
+  color: #000;
+}
+
+.link-4 {
+  font-family: futura-pt, sans-serif;
+  color: #000;
+}
+
+.link-5 {
+  color: #000;
+}
+
+.link-6 {
+  color: #000;
+}
+
+.kuenstler-text-block {
+  width: 400vw;
+  height: auto;
+  font-family: futura-pt, sans-serif;
+  color: #000;
+  font-size: 32px;
+}
+
+.ueber-wrap {
+  position: fixed;
+  top: 0px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: url('../images/Komp_2.gif');
+  background-position: 50% 50%;
+  background-size: 20%;
+  background-repeat: no-repeat;
+}
+
+.text-block {
+  width: 100%;
+  max-width: 960px;
+  font-family: futura-pt, sans-serif;
+  color: #000;
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  text-transform: lowercase;
+}
+
+.italic-text {
+  line-height: 48px;
+  font-weight: 400;
+}
+
+.impressum-link {
+  position: fixed;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: 16px;
+  font-family: futura-pt, sans-serif;
+  color: #000;
+  font-style: italic;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.kontakt-wrapper {
+  position: fixed;
+  top: 0px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.kontakt-link {
+  font-family: futura-pt, sans-serif;
+  color: #000;
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 700;
+}
+
+.merch-wrapper {
+  position: fixed;
+  top: 0px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
