@@ -91,9 +91,9 @@
 
 .release.release-4 {
   left: 63%;
-  top: 13%;
-  display: none;
-  background-image: url('../images/institut_test_cover.png');
+  top: 25%;
+  display: block;
+  background-image: url('../images/italoNordo_sehrklein.jpg');
   background-position: 0px 0px;
   background-size: cover;
 }
