@@ -106,10 +106,13 @@
 }
 
 .release.release-6 {
-  left: 55%;
-  top: 71%;
-  display: none;
+  left: 13%;
+  top: 19%;
+  display: block;
   background-color: #000;
+  background-image: url('../images/red_cover_web.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
 }
 
 .release_3 {
@@ -715,16 +718,16 @@
 
 @media screen and (max-width: 991px) {
   #w-node-bbaad30de301-343295e2 {
-    -ms-grid-column: 1;
-    grid-column-start: 1;
+    -ms-grid-column: 2;
+    grid-column-start: 2;
     -ms-grid-column-span: 1;
-    grid-column-end: 2;
+    grid-column-end: 3;
     -ms-grid-row: 1;
     grid-row-start: 1;
     -ms-grid-row-span: 1;
     grid-row-end: 2;
-    -ms-grid-column-align: center;
-    justify-self: center;
+    -ms-grid-column-align: end;
+    justify-self: end;
     -ms-grid-row-align: center;
     align-self: center;
   }
@@ -749,8 +752,8 @@
     grid-row-start: 1;
     -ms-grid-row-span: 1;
     grid-row-end: 2;
-    -ms-grid-row-align: center;
-    align-self: center;
+    -ms-grid-row-align: start;
+    align-self: start;
     -ms-grid-column-align: end;
     justify-self: end;
   }
@@ -794,8 +797,8 @@
     grid-row-start: 1;
     -ms-grid-row-span: 1;
     grid-row-end: 2;
-    -ms-grid-row-align: center;
-    align-self: center;
+    -ms-grid-row-align: start;
+    align-self: start;
     -ms-grid-column-align: end;
     justify-self: end;
   }
@@ -807,14 +810,14 @@
     grid-column-start: 1;
     -ms-grid-column-span: 1;
     grid-column-end: 2;
-    -ms-grid-row: 1;
-    grid-row-start: 1;
+    -ms-grid-row: 2;
+    grid-row-start: 2;
     -ms-grid-row-span: 1;
-    grid-row-end: 2;
-    -ms-grid-column-align: center;
-    justify-self: center;
-    -ms-grid-row-align: center;
-    align-self: center;
+    grid-row-end: 3;
+    -ms-grid-column-align: end;
+    justify-self: end;
+    -ms-grid-row-align: start;
+    align-self: start;
   }
   #w-node-f39588781038-343295e2 {
     -ms-grid-column-span: 1;
@@ -822,9 +825,13 @@
     -ms-grid-column: 2;
     grid-column-start: 2;
     -ms-grid-row-span: 1;
-    grid-row-end: 3;
-    -ms-grid-row: 2;
-    grid-row-start: 2;
+    grid-row-end: 2;
+    -ms-grid-row: 1;
+    grid-row-start: 1;
+    -ms-grid-column-align: end;
+    justify-self: end;
+    -ms-grid-row-align: end;
+    align-self: end;
   }
 }
 
