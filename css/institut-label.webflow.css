@@ -260,6 +260,11 @@
   margin-bottom: 64px;
   padding-right: 24px;
   padding-left: 24px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -278,6 +283,7 @@
   width: 100%;
   max-width: 960px;
   margin-right: 0px;
+  margin-bottom: 32px;
   margin-left: 0px;
   font-family: futura-pt, sans-serif;
   color: #000;
@@ -578,8 +584,36 @@
   font-family: futura-pt-bold, sans-serif;
   color: #000;
   font-size: 40px;
+  line-height: 56px;
   font-style: italic;
   text-align: center;
+}
+
+.link-8 {
+  margin-top: 32px;
+  margin-right: 32px;
+  margin-left: 32px;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  -ms-grid-row-align: auto;
+  align-self: auto;
+  -webkit-box-ordinal-group: 1;
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+  font-family: futura-pt, sans-serif;
+  color: #000;
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 700;
+}
+
+.link-wrap {
+  margin-top: 16px;
 }
 
 @media (max-width: 991px) {
@@ -674,6 +708,7 @@
     background-size: 40%;
   }
   .ueber-wrap {
+    display: block;
     margin-top: 32px;
   }
   .text-block {
@@ -693,6 +728,21 @@
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
+  }
+  .link-8 {
+    display: block;
+    margin-left: 0px;
+    font-size: 24px;
+  }
+  .link-wrap {
+    display: block;
+    -webkit-align-self: flex-start;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
   }
 }
 
@@ -732,6 +782,12 @@
     background-color: #fff;
     color: #000;
   }
+  .auge {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+  }
   .dinglink.ding2 {
     width: 90vw;
     height: 90vw;
@@ -748,6 +804,7 @@
   .div-block-3-copy {
     width: 100%;
     height: 100%;
+    margin-bottom: 200px;
   }
 }
 
