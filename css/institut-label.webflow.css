@@ -85,8 +85,11 @@
 .release.release-3 {
   left: 8%;
   top: 66%;
-  display: none;
+  display: block;
   background-color: #000;
+  background-image: url('../images/detroit-acid-music.png');
+  background-position: 0px 0px;
+  background-size: cover;
 }
 
 .release.release-4 {
@@ -616,7 +619,7 @@
   margin-top: 16px;
 }
 
-@media (max-width: 991px) {
+@media screen and (max-width: 991px) {
   .release-wrap {
     position: static;
     display: -ms-grid;
@@ -692,7 +695,7 @@
   }
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .release-wrap {
     height: 130vh;
   }
@@ -746,7 +749,7 @@
   }
 }
 
-@media (max-width: 479px) {
+@media screen and (max-width: 479px) {
   .nav-menu {
     background-color: #fff;
   }
@@ -840,14 +843,14 @@
     grid-column-start: 1;
     -ms-grid-column-span: 1;
     grid-column-end: 2;
-    -ms-grid-row: 1;
-    grid-row-start: 1;
+    -ms-grid-row: 2;
+    grid-row-start: 2;
     -ms-grid-row-span: 1;
-    grid-row-end: 2;
+    grid-row-end: 3;
     -ms-grid-row-align: start;
     align-self: start;
-    -ms-grid-column-align: end;
-    justify-self: end;
+    -ms-grid-column-align: start;
+    justify-self: start;
   }
   #w-node-99e4f87768b3-343295e2 {
     -ms-grid-column: 2;
@@ -864,18 +867,18 @@
     justify-self: center;
   }
   #w-node-55302682472c-343295e2 {
-    -ms-grid-column: 2;
-    grid-column-start: 2;
+    -ms-grid-column: 1;
+    grid-column-start: 1;
     -ms-grid-column-span: 1;
-    grid-column-end: 3;
-    -ms-grid-row: 2;
-    grid-row-start: 2;
+    grid-column-end: 2;
+    -ms-grid-row: 1;
+    grid-row-start: 1;
     -ms-grid-row-span: 1;
-    grid-row-end: 3;
-    -ms-grid-column-align: start;
-    justify-self: start;
-    -ms-grid-row-align: end;
-    align-self: end;
+    grid-row-end: 2;
+    -ms-grid-column-align: end;
+    justify-self: end;
+    -ms-grid-row-align: start;
+    align-self: start;
   }
 }
 
@@ -885,12 +888,16 @@
     grid-column-start: 1;
     -ms-grid-column-span: 1;
     grid-column-end: 2;
-    -ms-grid-row: 1;
-    grid-row-start: 1;
+    -ms-grid-row: 2;
+    grid-row-start: 2;
     -ms-grid-row-span: 1;
-    grid-row-end: 2;
+    grid-row-end: 3;
     -ms-grid-row-align: start;
     align-self: start;
+    -ms-grid-column-align: start;
+    justify-self: start;
+  }
+  #w-node-55302682472c-343295e2 {
     -ms-grid-column-align: end;
     justify-self: end;
   }
@@ -917,11 +924,23 @@
     -ms-grid-column: 2;
     grid-column-start: 2;
     -ms-grid-row-span: 1;
-    grid-row-end: 2;
-    -ms-grid-row: 1;
-    grid-row-start: 1;
+    grid-row-end: 3;
+    -ms-grid-row: 2;
+    grid-row-start: 2;
     -ms-grid-column-align: end;
     justify-self: end;
+    -ms-grid-row-align: end;
+    align-self: end;
+  }
+  #w-node-fded29488926-343295e2 {
+    -ms-grid-column: 2;
+    grid-column-start: 2;
+    -ms-grid-column-span: 1;
+    grid-column-end: 3;
+    -ms-grid-row: 1;
+    grid-row-start: 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: 2;
     -ms-grid-row-align: end;
     align-self: end;
   }
